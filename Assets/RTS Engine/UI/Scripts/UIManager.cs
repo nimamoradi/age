@@ -141,8 +141,6 @@ namespace RTSEngine
 		//Player Message UI:
 		public enum MessageTypes {error, info};
         [SerializeField]
-        private Text playerMessageText = null;
-        [SerializeField]
 		private float playerMessageDuration = 3.0f; //how long does the player message shows for.
 		float playerMessageTimer;
         private IEnumerator disablePlayerMessage;
@@ -150,8 +148,6 @@ namespace RTSEngine
 		//a method that contrls showing messags to the player:
 		public void ShowPlayerMessage(string message, MessageTypes type = MessageTypes.error)
 		{
-			playerMessageText.gameObject.SetActive (true);
-			playerMessageText.text = message;
 
             //new disable player message coroutine
             if(disablePlayerMessage != null)
@@ -164,9 +160,6 @@ namespace RTSEngine
         private IEnumerator DisablePlayerMessage ()
         {
             yield return new WaitForSeconds(playerMessageDuration);
-
-			playerMessageText.text = "";
-		    playerMessageText.gameObject.SetActive (false);
         }
 
         [SerializeField]
