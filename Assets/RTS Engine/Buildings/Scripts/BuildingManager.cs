@@ -39,8 +39,6 @@ namespace RTSEngine
         //called by the game manager after initializing the faction slots
         public void OnFactionSlotsInitialized ()
         {
-            foreach (Building b in freeBuildings) //init all free buildings
-                b.Init(gameMgr, -1, true, null, false);
         }
 
         private void OnDisable()

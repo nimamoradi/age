@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Food
   m_EditorClassIdentifier: 
   _name: Food
-  startingAmount: 400
+  startingAmount: 200
   icon: {fileID: 21300000, guid: b71e27a89ddfde144bed7caba4804082, type: 3}
   minimapIconColor: {r: 0.5294118, g: 0, b: 1, a: 1}
   collectionAudio:

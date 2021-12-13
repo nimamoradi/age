@@ -287,12 +287,6 @@ namespace RTSEngine
                 //go through the ResourceTypeCollection instances that regulate each resource type
                 foreach (ResourceTypeCollection rtc in collectionInfo.Values)
                 {
-                    /*ResourceTypeCollection rtc = test.Value;
-                    if (factionMgr.FactionID == 1 && test.Key.GetName() == "Metal")
-                    {
-                        Debug.Log(rtc.CanAddCollector(npcMgr.GetNPCComp<NPCUnitCreator>().GetActiveUnitRegulator(collectorMonitor.GetRandomCode()).Count));
-                        Debug.Log(rtc.collectorsAmount);
-                    }*/
 
                     if (!rtc.CanAddCollector(npcMgr.GetNPCComp<NPCUnitCreator>().GetActiveUnitRegulator(rtc.collectorMonitor.GetRandomCode()).Count))
                         continue; //next resource type

@@ -1394,9 +1394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 1
-  resources:
-  - Name: Knowledge
-    Amount: 1
+  resources: []
   period: 1.51
   requiredResources: []
   collectionThreshold: []

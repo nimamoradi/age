@@ -3511,8 +3511,6 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 8155e2639cd449540ac862478791c54e, type: 3}
     reloadTime: 14
     requiredResources:
-    - Name: Metal
-      Amount: 70
     - Name: Wood
       Amount: 60
     missingReqData:
@@ -3567,8 +3565,6 @@ MonoBehaviour:
     requiredResources:
     - Name: Food
       Amount: 50
-    - Name: Metal
-      Amount: 30
     missingReqData:
       icon: {fileID: 0}
       color: {r: 1, g: 0, b: 0, a: 1}
@@ -3676,8 +3672,6 @@ MonoBehaviour:
     requiredResources:
     - Name: Wood
       Amount: 90
-    - Name: Knowledge
-      Amount: 50
     missingReqData:
       icon: {fileID: 0}
       color: {r: 1, g: 0, b: 0, a: 1}
@@ -3728,12 +3722,8 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 46001833cc5d1254296592bbd19b939b, type: 3}
     reloadTime: 18
     requiredResources:
-    - Name: Metal
-      Amount: 70
     - Name: Wood
       Amount: 60
-    - Name: Knowledge
-      Amount: 50
     missingReqData:
       icon: {fileID: 0}
       color: {r: 1, g: 0, b: 0, a: 1}
@@ -3785,8 +3775,6 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 9ac0f9115f75b764eb0f4a9d8147a776, type: 3}
     reloadTime: 15
     requiredResources:
-    - Name: Knowledge
-      Amount: 300
     - Name: Food
       Amount: 80
     - Name: Wood
@@ -3840,9 +3828,7 @@ MonoBehaviour:
     taskPanelCategory: 2
     icon: {fileID: 21300000, guid: 95ac80c8334890c4d8ecd40a715930fc, type: 3}
     reloadTime: 20
-    requiredResources:
-    - Name: Metal
-      Amount: 100
+    requiredResources: []
     missingReqData:
       icon: {fileID: 0}
       color: {r: 1, g: 0, b: 0, a: 1}

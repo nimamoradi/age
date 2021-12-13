@@ -2585,8 +2585,6 @@ MonoBehaviour:
     requiredResources:
     - Name: Food
       Amount: 90
-    - Name: Knowledge
-      Amount: 100
     missingReqData:
       icon: {fileID: 0}
       color: {r: 1, g: 0, b: 0, a: 1}
@@ -2639,8 +2637,6 @@ MonoBehaviour:
     requiredResources:
     - Name: Food
       Amount: 100
-    - Name: Knowledge
-      Amount: 120
     missingReqData:
       icon: {fileID: 0}
       color: {r: 1, g: 0, b: 0, a: 1}

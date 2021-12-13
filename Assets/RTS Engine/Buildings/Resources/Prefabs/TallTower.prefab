@@ -613,8 +613,6 @@ MonoBehaviour:
   resources:
   - Name: Wood
     Amount: 40
-  - Name: Metal
-    Amount: 60
   missingReqData:
     icon: {fileID: 0}
     color: {r: 1, g: 0, b: 0, a: 1}
@@ -671,9 +669,7 @@ MonoBehaviour:
   damageEffect: {fileID: 0}
   destroyObject: 1
   destroyObjectTime: 0
-  destroyAward:
-  - Name: Metal
-    Amount: 40
+  destroyAward: []
   destructionAudio:
     fetchType: 0
     audioClips: []

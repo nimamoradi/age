@@ -285,8 +285,6 @@ MonoBehaviour:
     Amount: 50
   - Name: Food
     Amount: 30
-  - Name: Metal
-    Amount: 10
   claimAudio: {fileID: 0}
   claimEffect: {fileID: 6532594605488286437, guid: 261adf212916c144bbb6cbc9dd40fb51,
     type: 3}
