@@ -15,7 +15,7 @@ D:/Unity/dam/age
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57824
+53589
 Successfully changed project path to: D:/Unity/dam/age
 D:/Unity/dam/age
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity/dam/age
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 102.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/edit/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,50 +63,50 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity Hub/edit/2021.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity Hub/edit/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity Hub/edit/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity Hub/edit/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007483 seconds.
+Registered in 0.007429 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.808 seconds
+- Completed reload, in  0.837 seconds
 Domain Reload Profiling:
-	ReloadAssembly (808ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (578ms)
-			LoadAssemblies (138ms)
+		EndReloadAssembly (615ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (353ms)
+			SetupLoadedEditorAssemblies (361ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009928 seconds.
+Registered in 0.009676 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\dam\age\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\dam\age\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [RTSEngineEditorHelper] Cached faction type, resource type, NPC type and entity component task UI data asset files.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -121,43 +121,43 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Assets/RTS Engine/Scripting/Editor/RTSEditorHelper.cs Line: 30)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.794 seconds
+- Completed reload, in  1.836 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1795ms)
-		BeginReloadAssembly (262ms)
+	ReloadAssembly (1837ms)
+		BeginReloadAssembly (254ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1414ms)
-			LoadAssemblies (150ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1466ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
+			SetupTypeCache (342ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (791ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (810ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (614ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (635ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3583 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (187.2 KB). Loaded Objects now: 5848.
-Memory consumption went from 141.0 MB to 140.8 MB.
-Total: 6.313400 ms (FindLiveObjects: 0.529500 ms CreateObjectMapping: 0.620200 ms MarkObjects: 5.034400 ms  DeleteObjects: 0.128200 ms)
+Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (183.6 KB). Loaded Objects now: 5744.
+Memory consumption went from 155.8 MB to 155.6 MB.
+Total: 5.996400 ms (FindLiveObjects: 0.554800 ms CreateObjectMapping: 0.583200 ms MarkObjects: 4.721400 ms  DeleteObjects: 0.135400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,235 +171,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 35243.729199 seconds.
+  Time since last request: 66541.666433 seconds.
+  path: Assets/buildings/windmill.fbx
+  artifactKey: Guid(50ed9996adec1944ea6c6b682930b483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/buildings/windmill.fbx using Guid(50ed9996adec1944ea6c6b682930b483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4529f02ff0a1599df33b40416d87715') in 0.230068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.493859 seconds.
+  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
+  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c93cb245e7c414bb3dff162e730725d') in 0.093406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
   path: Assets/RTS Engine/Buildings/Resources/Prefabs/House_Survivors.prefab
   artifactKey: Guid(7d7eb9974415d744bb7b3c205c7e4d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/House_Survivors.prefab using Guid(7d7eb9974415d744bb7b3c205c7e4d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a674782a963a605475fa11c4e893bb7d') in 0.355969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f63f83511f3013e75f7cbe682e8d3f9') in 0.093998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab
-  artifactKey: Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab using Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006ae944bf7bf61dffff40a0500e8c66') in 0.088083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.589698 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3a27aff02d9a8b78a6755427989b6c') in 0.080370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/House_Survivors.prefab
-  artifactKey: Guid(7d7eb9974415d744bb7b3c205c7e4d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/House_Survivors.prefab using Guid(7d7eb9974415d744bb7b3c205c7e4d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5d99e64d1526379ce0175c3a0e6401') in 0.088604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/House_Invaders.prefab
-  artifactKey: Guid(48f56e190294eb646abe1bcea2456dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/House_Invaders.prefab using Guid(48f56e190294eb646abe1bcea2456dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5d42357a730a7db153a0f0a03907c4') in 0.075436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.622415 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba2b175f4f375fcfd39b9df652fcf75') in 0.080782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab
-  artifactKey: Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab using Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e1c64ecb67f754d4d1efd9cd8f83bf') in 0.076388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab
-  artifactKey: Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab using Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71cdaf8cb6726311e16d35ceb28b630') in 0.081090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.105633 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45b543cf6f855dd8a17207a45418694') in 0.081100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab
-  artifactKey: Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab using Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f2d5688aa8132b68f769016b925418') in 0.075385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/House_Invaders.prefab
-  artifactKey: Guid(48f56e190294eb646abe1bcea2456dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/House_Invaders.prefab using Guid(48f56e190294eb646abe1bcea2456dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e947754cd68954240ebb1229cdf26932') in 0.074405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.800309 seconds.
-  path: Assets/RTS Engine/Maps/DemoMap/Custom/Materials/portal.mat
-  artifactKey: Guid(8af113a58ea81f0489d7b35c50f16cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Maps/DemoMap/Custom/Materials/portal.mat using Guid(8af113a58ea81f0489d7b35c50f16cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caaefa74ab42b64190f97e1c1f2bb66') in 0.058987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/RTS Engine/Maps/DemoMap/Kenney Assets/Castle Kit/Models/Materials/roof.mat
-  artifactKey: Guid(0bf7ef647d62e724d91a9dd3b1315248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Maps/DemoMap/Kenney Assets/Castle Kit/Models/Materials/roof.mat using Guid(0bf7ef647d62e724d91a9dd3b1315248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1000923584bbf38b29d06d57abd1dba') in 0.027771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/RTS Engine/Maps/DemoMap/Kenney Assets/Medieval Town (base)/Materials/Red_Cotton.mat
-  artifactKey: Guid(a813ad622e8612e4c82997585e6b3e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Maps/DemoMap/Kenney Assets/Medieval Town (base)/Materials/Red_Cotton.mat using Guid(a813ad622e8612e4c82997585e6b3e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f29c5ad9f45945acf23b52a7245046') in 0.034292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/RTS Engine/Maps/DemoMap/Kenney Assets/Nature pack/Materials/ribbon.mat
-  artifactKey: Guid(42e05e59b5575ac4bbe4c5fb3073eaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Maps/DemoMap/Kenney Assets/Nature pack/Materials/ribbon.mat using Guid(42e05e59b5575ac4bbe4c5fb3073eaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f54ee07106f5129b9099d0a83c5b8e') in 0.029090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.618682 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fe00f3d4fc21b440dd3c7af9508eab') in 0.080374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab
-  artifactKey: Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab using Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86146a6a46491334d39a093c877a4767') in 0.082641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab
-  artifactKey: Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab using Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb21efe00f7ba48864ebcec5c50451d') in 0.075155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.887498 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3306d45654a91c51fbbc811997392b15') in 0.081657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab
-  artifactKey: Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab using Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330030a073615601526002649ba44e00') in 0.078498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab
-  artifactKey: Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab using Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b62a8a247bc59fa8bc54fdb2d5d027') in 0.078186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.761734 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd0dbd70758eaa0c3aa4a8d6067d4f1') in 0.086640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab
-  artifactKey: Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab using Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2640c4e88a199df6b008f4f5cb37260d') in 0.079482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab
-  artifactKey: Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab using Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33683eecd8bcdf99d72da0abbc5a971b') in 0.078043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.648778 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce13a952c95f91b383f2da5686466ff') in 0.088403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab
-  artifactKey: Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab using Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0965cca38fae450b42008ac33a3c7da5') in 0.088577 seconds 
+Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/House_Survivors.prefab using Guid(7d7eb9974415d744bb7b3c205c7e4d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f7aa3f8026a1917b7d199dcd717108') in 0.083416 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab
-  artifactKey: Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab using Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad3e6246990d6081bf4857019ac3076') in 0.076758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 184.571198 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b8c7824f16220f682119a1a9f745c6') in 0.081258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
   path: Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab
   artifactKey: Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab using Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ff266bdb7445cdc2025d8bda43af7c') in 0.075670 seconds 
+Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab using Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166b8348cb7c01eb45d27661c7a159a0') in 0.080409 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab
-  artifactKey: Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab using Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f408d7a68d22260adf013122ae2567e') in 0.082214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.482444 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798c0badaef35c72e84660ff72835114') in 0.079509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab
-  artifactKey: Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab using Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c12979d5a692d225210f0109c7c3507') in 0.077061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab
-  artifactKey: Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab using Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9849935113d9406f678edb9068686169') in 0.072933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.889847 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
-  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ff90f2ca76341f80ff63c1c9038cf1') in 0.083944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab
-  artifactKey: Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/SmallTower.prefab using Guid(178b713b32fccd247a42925c0d7dd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed08d698e2f018535e054feceda64bf') in 0.078139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab
-  artifactKey: Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/TallTower.prefab using Guid(1b4f6ee4011f1024093e3b0163471545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d1b42c315b81a6472bb0162256ec5f') in 0.084578 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/RTS Engine/Buildings/Resources/Prefabs/House_Invaders.prefab
+  artifactKey: Guid(48f56e190294eb646abe1bcea2456dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/House_Invaders.prefab using Guid(48f56e190294eb646abe1bcea2456dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bec3c5482cdc7870acf0a0b38f4be1') in 0.097832 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009457 seconds.
+Registered in 0.009991 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\dam\age\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\dam\age\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [RTSEngineEditorHelper] Cached faction type, resource type, NPC type and entity component task UI data asset files.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -414,40 +222,150 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Assets/RTS Engine/Scripting/Editor/RTSEditorHelper.cs Line: 30)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.952 seconds
+- Completed reload, in  1.958 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1954ms)
-		BeginReloadAssembly (225ms)
+	ReloadAssembly (1959ms)
+		BeginReloadAssembly (221ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1607ms)
-			LoadAssemblies (159ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1589ms)
+			LoadAssemblies (173ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (383ms)
+			SetupTypeCache (344ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (610ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (599ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (431ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3395 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (104.3 KB). Loaded Objects now: 5892.
-Memory consumption went from 138.2 MB to 138.1 MB.
-Total: 7.306800 ms (FindLiveObjects: 0.748000 ms CreateObjectMapping: 0.562400 ms MarkObjects: 5.816700 ms  DeleteObjects: 0.177300 ms)
+Unloading 3387 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (104.6 KB). Loaded Objects now: 5791.
+Memory consumption went from 153.4 MB to 153.3 MB.
+Total: 7.167700 ms (FindLiveObjects: 0.559000 ms CreateObjectMapping: 0.289500 ms MarkObjects: 6.148000 ms  DeleteObjects: 0.169900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 263.567532 seconds.
+  path: Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab
+  artifactKey: Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/Barrack.prefab using Guid(60bc8234d51b0664ca320a55465554cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ca047fa47c0f1acbcbd37227e86559') in 0.166576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RTS Engine/Buildings/Resources/Prefabs/House_Survivors.prefab
+  artifactKey: Guid(7d7eb9974415d744bb7b3c205c7e4d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/House_Survivors.prefab using Guid(7d7eb9974415d744bb7b3c205c7e4d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63292872718387db45b339127dd60e1') in 0.078274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RTS Engine/Buildings/Resources/Prefabs/House_Invaders.prefab
+  artifactKey: Guid(48f56e190294eb646abe1bcea2456dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS Engine/Buildings/Resources/Prefabs/House_Invaders.prefab using Guid(48f56e190294eb646abe1bcea2456dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdeca79ad8550a364ee4cdd6722cce3') in 0.082919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.021163 seconds.
+  path: Assets/buildings/prefab/Barracks.prefab
+  artifactKey: Guid(b95c2df71b2246d4a98d8279cbd2b273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/buildings/prefab/Barracks.prefab using Guid(b95c2df71b2246d4a98d8279cbd2b273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddb37d00dc2f24146506ae067c793b0') in 0.027610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/buildings/prefab/TownCenter.prefab
+  artifactKey: Guid(dd58eecaa5cff9e4e906ca798f2d01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/buildings/prefab/TownCenter.prefab using Guid(dd58eecaa5cff9e4e906ca798f2d01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa4559624da5423a5ad2f42f678f51f') in 0.024779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.141993 seconds.
+  path: Assets/buildings/Mill_aoe2de.png
+  artifactKey: Guid(46274d6bd42bcb34c954691778dec443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/buildings/Mill_aoe2de.png using Guid(46274d6bd42bcb34c954691778dec443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2d7477359df1c8f9be5b40f425a724') in 0.032135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.609015 seconds.
+  path: Assets/buildings/Mill_aoe2de.png
+  artifactKey: Guid(46274d6bd42bcb34c954691778dec443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/buildings/Mill_aoe2de.png using Guid(46274d6bd42bcb34c954691778dec443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d279b88ebbcfc16b5b22f2cfcdfe81') in 0.050964 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010351 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\dam\age\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\dam\age\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[RTSEngineEditorHelper] Cached faction type, resource type, NPC type and entity component task UI data asset files.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RTSEngine.RTSEditorHelper:RefreshAssetFiles () (at Assets/RTS Engine/Scripting/Editor/RTSEditorHelper.cs:30)
+RTSEngine.RTSEditorHelper:.cctor () (at Assets/RTS Engine/Scripting/Editor/RTSEditorHelper.cs:18)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/RTS Engine/Scripting/Editor/RTSEditorHelper.cs Line: 30)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1941ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1583ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (104.7 KB). Loaded Objects now: 5826.
+Memory consumption went from 154.4 MB to 154.3 MB.
+Total: 6.826800 ms (FindLiveObjects: 0.757900 ms CreateObjectMapping: 0.328300 ms MarkObjects: 5.525200 ms  DeleteObjects: 0.214000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
