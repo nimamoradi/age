@@ -91,7 +91,6 @@ namespace RTSEngine
         public TerrainManager TerrainMgr { private set; get; }
         public MovementManager MvtMgr { private set; get; }
         public ErrorMessageHandler ErrorMessageMgr { private set; get; }
-        public MissionManager MissionMgr { private set; get; }
         public MinimapIconManager MinimapIconMgr { private set; get; }
         public AttackWarningManager AttackWarningMgr { private set; get; }
         public AttackManager AttackMgr { private set; get; }
@@ -177,7 +176,6 @@ namespace RTSEngine
 
             ResourceMgr.InitFactionResources(); //init resources for factions.
 
-            InitCampaignGame(); //initialise a game where the player is coming from the campaign menu to play a mission
             InitDefaultEntities(); //initialise the pre-spawned faction units and factions
 
             UnitMgr.OnFactionSlotsInitialized(); //init free units
@@ -335,18 +333,6 @@ namespace RTSEngine
                 factions[i].SpawnFactionEntities(this);
         }
 
-        //initialise a campaign game where the player needs to complete mission(s)
-        private void InitCampaignGame ()
-        {
-            MissionMgr = FindObjectOfType(typeof(MissionManager)) as MissionManager;
-            ScenarioLoader scenarioLoader = FindObjectOfType(typeof(ScenarioLoader)) as ScenarioLoader;
-
-            if (MissionMgr) //if there's a mission manager in this current map
-                MissionMgr.Init(this, scenarioLoader != null ? scenarioLoader.LoadedSceneario : null); //initiailise it
-
-            if(scenarioLoader != null) //destroy the scenario loader as it is no longer needed
-                Destroy(scenarioLoader.gameObject);
-        }
 
         //a method that sets the player faction ID
         private bool SetPlayerFaction()

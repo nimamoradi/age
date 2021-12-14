@@ -133,19 +133,7 @@ namespace RTSEngine
         public static event FactionSlotHandler FactionInit = delegate { };
         public static event FactionSlotHandler FactionDefaultEntitiesInit = delegate { };
         public static event FactionSlotHandler NPCFactionInit = delegate { };
-
-        //Mission related events:
-        public delegate void ScenarioEventHandler(Scenario scenario);
-        public static event ScenarioEventHandler ScenarioStart = delegate { };
-        public static event ScenarioEventHandler ScenarioSuccess = delegate { };
-        public static event ScenarioEventHandler ScenarioFail = delegate { };
-
-        public delegate void MissionEventHandler(Mission mission);
-        public static event MissionEventHandler MissionStart = delegate { };
-        public static event MissionEventHandler MissionComplete = delegate { };
-        public static event MissionEventHandler MissionFail = delegate { };
-
-		public delegate void CustomCommandEventHandler (NetworkInput command);
+        public delegate void CustomCommandEventHandler (NetworkInput command);
 		public static event CustomCommandEventHandler CustomCommand = delegate {};
 
         //Game state related events:
@@ -441,17 +429,7 @@ namespace RTSEngine
         {
             FactionResourceUpdated(resourceType, factionID, amount);
         }
-
-        //Mission related events:
-        public static void OnScenarioStart (Scenario scenario) { ScenarioStart(scenario); }
-        public static void OnScenarioSuccess (Scenario scenario) { ScenarioSuccess(scenario); }
-        public static void OnScenarioFail (Scenario scenario) { ScenarioFail(scenario); }
-
-        public static void OnMissionStart (Mission mission) { MissionStart(mission); }
-        public static void OnMissionComplete (Mission mission) { MissionComplete(mission); }
-        public static void OnMissionFail (Mission mission) { MissionFail(mission); }
-
-		//Game events:
+        //Game events:
 		public static void OnFactionEliminated (FactionSlot factionSlot)
 		{
 			FactionEliminated (factionSlot);
