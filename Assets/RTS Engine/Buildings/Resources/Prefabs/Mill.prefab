@@ -578,9 +578,7 @@ MonoBehaviour:
   initResources:
   - Name: FactionPower
     Amount: 3
-  disableResources:
-  - Name: FactionPower
-    Amount: -3
+  disableResources: []
   taskPanelCategory: 0
   factionEntityRequirements: []
   resources:
