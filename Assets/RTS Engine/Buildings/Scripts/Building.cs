@@ -147,8 +147,6 @@ namespace RTSEngine
             if (!PlacementInstance)
             {
                 PlacerComp.PlaceBuilding(); //place the building
-                if (GodMode.Enabled && FactionID == GameManager.PlayerFactionID) //if god mode is enabled and this is the local player's building
-                    placedByDefault = true;
             }
 
             if (placedByDefault) //if the building is supposed to be placed by default or we're in god mode and this is the player's building -> meaning that it is already in the scene

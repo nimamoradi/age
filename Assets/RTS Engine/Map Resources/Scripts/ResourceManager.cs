@@ -245,9 +245,6 @@ namespace RTSEngine
         /// <param name="add">Adds the resources when true, otherwise removes the resources from the faction.</param>
 		public void UpdateResource (int factionID, string name, int amount, bool add = true)
 		{
-            if (!add && factionID == GameManager.PlayerFactionID && GodMode.Enabled)
-                return;
-
             amount = (add ? 1 : -1) * amount; //add or remove the resources?
 
             if(mapResourcesTable.TryGetValue(name, out int id)) //if the resource name corresponds to a valid ID
@@ -301,10 +298,7 @@ namespace RTSEngine
 		//a method that gets called to check whether a faction has the resoureces defined in the first param or not
 		public bool HasRequiredResources (ResourceInput[] requiredResources, int factionID)
 		{
-            //if this is the local player and god mode is enabled
-            if (factionID == GameManager.PlayerFactionID && GodMode.Enabled == true)
-                return true;
-
+            
             foreach(ResourceInput r in requiredResources) //go through all required resources
             {
                 //if required resource amount can not be provided by the faction
@@ -318,10 +312,6 @@ namespace RTSEngine
         //a method that adds/removes resources using the required resources param
         public void UpdateRequiredResources (ResourceInput[] requiredResources, bool add, int factionID)
         {
-            //if we're taking resources from the player's faction while god mode is enabled
-            if (!add && factionID == GameManager.PlayerFactionID && GodMode.Enabled)
-                return; //do not take nothing
-
             foreach(ResourceInput r in requiredResources) //go through all required resources
                 UpdateResource(factionID, r.Name, (add ? 1 : -1) * r.Amount); //add or remove resources
         }

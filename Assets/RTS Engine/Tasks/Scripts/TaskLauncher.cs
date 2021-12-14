@@ -172,7 +172,7 @@ namespace RTSEngine
         void UpdatePendingTask()
         {
             //if the task timer is still going and we are not using the god mode
-            if (taskQueueTimer > 0 && GodMode.Enabled == false)
+            if (taskQueueTimer > 0)
             {
                 taskQueueTimer -= Time.deltaTime;
             }

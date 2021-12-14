@@ -149,7 +149,7 @@ namespace RTSEngine
                 currentBuilding.transform.rotation.eulerAngles.y, 
                 currentBuilding.CurrentCenter, 
                 GameManager.PlayerFactionID, 
-                GodMode.Enabled == true); //create the placed building
+                false); //create the placed building
 
             //remove instance that was being used to place building
             Destroy(currentBuilding.gameObject);

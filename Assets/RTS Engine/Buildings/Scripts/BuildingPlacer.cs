@@ -102,7 +102,7 @@ namespace RTSEngine
             if (placeOutsideBorder == false && building.BorderComp == null) //if the building is to be placed inside the faction's border and this is not a center building
                 building.CurrentCenter.RegisterBuilding(building); //register building in the territory that it belongs to.
 
-            if (building.FactionID == GameManager.PlayerFactionID && GodMode.Enabled == false && building.PlacedByDefault == false) //if the player owns this building and this is a single player game
+            if (building.FactionID == GameManager.PlayerFactionID && building.PlacedByDefault == false) //if the player owns this building and this is a single player game
             {
                 List<Unit> selectedUnits = gameMgr.SelectionMgr.Selected.GetEntitiesList(EntityTypes.unit, true, true).Cast<Unit>().ToList();
 
