@@ -56,7 +56,6 @@ namespace RTSEngine
         private bool showAmount = true; //show the amount in the UI.
         public bool ShowAmount() { return showAmount; }
 
-        public Treasure TreasureComp { private set; get; } //the treasure component attached to this resource (if there's any)
         public WorkerManager WorkerMgr { set; get; } //this component manages resource collectors
 
         public override void Init(GameManager gameMgr)
@@ -64,7 +63,6 @@ namespace RTSEngine
             base.Init(gameMgr);
 
             //get the resource components
-            TreasureComp = GetComponent<Treasure>();
             WorkerMgr = GetComponent<WorkerManager>();
 
             //initialize the components
@@ -184,9 +182,6 @@ namespace RTSEngine
 
             if (destroyOnEmpty == false) //if the resource is not supposed to be destroyed
                 return;
-
-            if (TreasureComp) //if this has a treasure component
-                TreasureComp.Trigger(source.FactionID, gameMgr); //trigger the treasure for the collector's faction
 
             gameMgr.ResourceMgr.RemoveResource(this); //remove resource from all resources list
 

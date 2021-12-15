@@ -169,11 +169,7 @@ namespace RTSEngine
         {
             base.OnInProgress();
 
-            if (target.TreasureComp != null) //if the resource has a treasure component
-            {
-                target.DestroyResource(unit); //destroy the resource which will trigger opening the treasure
-            }
-            else if (target.IsEmpty() == false) //we're dealing with a normal resource that's not empty yet
+            if (target.IsEmpty() == false) //we're dealing with a normal resource that's not empty yet
             {
                 target.AddAmount(-1, unit); //take one unit of the resource
             }
