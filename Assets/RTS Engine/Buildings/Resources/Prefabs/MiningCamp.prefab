@@ -554,7 +554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: MiningCamp
   code: MiningCamp
-  category: CivilianBuilding
+  category: Warehouse
   description: Allows units to drop off resources.
   icon: {fileID: 21300000, guid: e4f353ce33b1eb84fbc96392b65574bc, type: 3}
   free: 0

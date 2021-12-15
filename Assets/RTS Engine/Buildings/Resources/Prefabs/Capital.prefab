@@ -2043,17 +2043,17 @@ MonoBehaviour:
     materialID: 0
   initResources:
   - Name: FactionPower
-    Amount: 10
+    Amount: 20
   disableResources:
   - Name: FactionPower
     Amount: -10
   taskPanelCategory: 0
   factionEntityRequirements: []
   resources:
-  - Name: Food
-    Amount: 120
+  - Name: Stone
+    Amount: 100
   - Name: Wood
-    Amount: 120
+    Amount: 275
   missingReqData:
     icon: {fileID: 0}
     color: {r: 1, g: 0, b: 0, a: 1}

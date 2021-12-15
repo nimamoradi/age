@@ -5,9 +5,6 @@ using System.Linq;
 
 using RTSEngine.EntityComponent;
 
-/* TaskUI script created by Oussama Bouanani, SoumiDelRio.
- * This script is part of the Unity RTS Engine */
-
 namespace RTSEngine
 {
     //the task UI attributes that get assigned by the UI manager

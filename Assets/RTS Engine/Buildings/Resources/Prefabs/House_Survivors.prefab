@@ -601,7 +601,7 @@ MonoBehaviour:
     materialID: 1
   initResources:
   - Name: FactionPower
-    Amount: 2
+    Amount: 8
   disableResources:
   - Name: FactionPower
     Amount: -2

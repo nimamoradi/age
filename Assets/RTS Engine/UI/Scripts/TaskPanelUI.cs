@@ -7,9 +7,6 @@ using UnityEngine.Assertions;
 
 using RTSEngine.EntityComponent;
 
-/* TaskPanelUI script created by Oussama Bouanani, SoumiDelRio.
- * This script is part of the Unity RTS Engine */
-
 namespace RTSEngine
 {
     [System.Serializable]
